@@ -2,11 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Gmail</title>
   </head>
-  <body>
+  <body id="container">
     <header>
       <div class="header_top">
         <img class="logo" src="img/logo.png" alt="">
@@ -24,19 +24,22 @@
       <h2> You have <span>30</span> unread
       </h2>
       <hr class="prima-riga">
-      <section class="emails">
-        <div class="email">
-          <input type="checkbox" name="" value=""> &starf; <p> <strong>oggetto della mail</strong>-testo della mail... </p>
-        </div>
-        <div class="email read">
-          <input type="checkbox" name="" value=""> &starf; <p> <strong>oggetto della mail</strong>-testo della mail... </p>
-        </div>
-        <div class="email">
-          <input type="checkbox" name="" value=""> &starf; <p> <strong>oggetto della mail</strong>-testo della mail... </p>
-        </div>
-        <div class="email">
-          <input type="checkbox" name="" value=""> &starf; <p> <strong>oggetto della mail</strong>-testo della mail... </p>
-        </div>
+      <section>
+        <!--lista non ordinata-->
+        <ul>
+          <li class="email">
+            <input type="checkbox" name="" value=""> &starf;<strong>oggetto della mail</strong>-testo della mail...
+          </li>
+          <li class="email read">
+            <input type="checkbox" name="" value=""> &starf;<strong>oggetto della mail</strong>-testo della mail...
+          </li>
+          <li class="email">
+            <input type="checkbox" name="" value=""> &starf;<strong>oggetto della mail</strong>-testo della mail...
+          </li>
+          <li class="email">
+            <input type="checkbox" name="" value=""> &starf;<strong>oggetto della mail</strong>-testo della mail...
+          </li>
+        </ul>
         <hr class="seconda-riga">
       </section>
     </main>

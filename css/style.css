@@ -1,40 +1,49 @@
 * {box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-body {
-  margin-left: 30px;
+  }
+
+#container {
+  width: 700px;
+  margin: auto;
   background-image: url('../img/background.jpg');
   background-repeat:no-repeat;
   background-size: cover;
   }
+
 .header_top {
   height: 60px;
   line-height: 60px;
-}
+  }
+
 .logo {
   width: 50px;
   vertical-align: middle;
-}
+  }
+
 h1 {
   font-size: 20px;
   display: inline;
   color: white;
-}
+  }
+
 button {
   border-radius: 5px;
-}
+  }
+
 input {
   margin-top: 10px;
-}
-main {}
+  }
+
 h2 {
   font-size: 20px;
   color: white;
-}
+  }
+
 .prima-riga {
   margin-bottom: 5px;
-}
+  }
+
 span {
   display: inline-block;
   width: 50px;
@@ -46,21 +55,25 @@ span {
   border-radius: 50px;
   padding: 5px;
   margin: 5px;
-}
-.email p {
-  display: inline;
+  }
+
+.email {
+  list-style: none;
   background-color: grey;
   border: 1px solid black;
-  padding: 3px;
-}
-.read p {
+  padding: 2px;
+  }
+
+.read {
   background-color: white;
-}
+  }
+
 .seconda-riga {
-  margin-top: 10px;
-}
+  margin-top: 5px;
+  }
+
 footer {
-  margin-top: 10px;
+  margin-top: 5px;
   text-align: center;
   color: white;
   font-style: italic;
